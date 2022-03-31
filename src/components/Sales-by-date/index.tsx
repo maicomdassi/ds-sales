@@ -1,5 +1,5 @@
 import './styles.css';
-import ApexChart from 'react-apexcharts';
+import ReactApexChart from 'react-apexcharts';
 import { chartOptions } from './helpers';
 
 const initialData = [
@@ -53,7 +53,7 @@ function SalesByDate() {
           </span>
         </div>
         <div className="sales-by-date-chart">
-          <ApexChart
+          <ReactApexChart
             options={chartOptions}
             series={[{ name: 'Vendas', data: initialData }]}
             type="bar"
