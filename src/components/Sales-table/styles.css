@@ -20,6 +20,14 @@
   /* border-bottom: 1px solid var(--grey-light-125-color);*/
 }
 
+.sales-table thead th:first-of-type {
+  padding-left: 30px;
+}
+
+.sales-table tbody td:first-of-type {
+  padding-left: 30px;
+}
+
 .sales-table tbody td {
   text-align: left;
   height: 55px;
